@@ -50,8 +50,8 @@ public class ToDoListAdapter extends RecyclerView.Adapter<ToDoListAdapter.ViewHo
             @Override
             public void onClick(View view) {
                 final AlertDialog.Builder builder = new AlertDialog.Builder(context);
-                builder.setMessage("Apakah Anda yakin Menghapus Data?");
-                builder.setPositiveButton("Ya", new DialogInterface.OnClickListener() {
+                builder.setMessage("Are you sure want to delete this list ?");
+                builder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
                         DatabaseHelper db = new DatabaseHelper(context);
@@ -62,7 +62,7 @@ public class ToDoListAdapter extends RecyclerView.Adapter<ToDoListAdapter.ViewHo
                     }
 
                 });
-                builder.setNegativeButton("Tidak", new DialogInterface.OnClickListener() {
+                builder.setNegativeButton("No", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
                         dialogInterface.dismiss();
