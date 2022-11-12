@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "983314842302",
+    "project_id": "finpro2kelompok4",
+    "storage_bucket": "finpro2kelompok4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:983314842302:android:b630aef0273d9d9184d4ef",
+        "android_client_info": {
+          "package_name": "com.inayatulmaula.finpro2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "983314842302-9eee8re8mhcgvu31deidte5ip0hkl1fe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUK2xD4_r4CtnkYH7U7Yfd_SFGG-DSXuk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "983314842302-9eee8re8mhcgvu31deidte5ip0hkl1fe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

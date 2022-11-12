@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:orientation="vertical"
+    tools:context=".DetailProducts">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imgDisplay"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:padding="5dp"
+            android:src="@drawable/sepatu" />
+
+        <TextView
+            android:id="@+id/nameDisplay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/item_display"
+            android:text="@string/name"
+            android:textAlignment="center"
+            android:fontFamily="@font/poppinsbold"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/priceDisplay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/item_name_display"
+            android:fontFamily="@font/poppinssemibold"
+            android:textColor="@color/orange"
+            android:text="@string/harga"
+            android:layout_marginLeft="20dp"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/stockDisplay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/poppinsregular"
+            android:layout_below="@+id/item_price_display"
+            android:text="@string/stok"
+            android:layout_marginLeft="20dp"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/deskDisplay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/item_quantity_display"
+            android:text="@string/deskripsi"
+            android:layout_marginLeft="20dp"
+            android:textSize="16dp" />
+    </LinearLayout>
+
+
+</LinearLayout>
